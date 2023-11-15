@@ -36,18 +36,6 @@ class HomePage extends StatelessWidget {
           ),
           Row(
             children: [
-<<<<<<< HEAD
-              InkWell(
-                onTap: () {
-                  Navigator.push(context,
-                      MaterialPageRoute(builder: (context) => LightPage()));
-                },
-                child: Container(
-                  width: 150,
-                  height: 150,
-                  color: Color.fromARGB(255, 13, 198, 179),
-                child: Icon(Icons.lightbulb_rounded ,color: Colors.white, size: 100,),
-=======
               Padding(
                 padding: const EdgeInsets.only(left: 40, top: 70),
                 child: InkWell(
@@ -101,7 +89,6 @@ class HomePage extends StatelessWidget {
                       )
                     ]),
                   ),
->>>>>>> 59ed63ebe35a034312a68c2d775d0bcc40c13ace
                 ),
               ),
             ],
