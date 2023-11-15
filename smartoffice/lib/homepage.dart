@@ -44,9 +44,6 @@ class HomePage extends StatelessWidget {
                   width: 150,
                   height: 150,
                   color: Color.fromARGB(255, 13, 198, 179),
-                  decoration: BoxDecoration(
-                    borderRadius: BorderRadius.circular(Radius.circular(radius))
-                  ),
                 child: Icon(Icons.lightbulb_rounded ,color: Colors.white, size: 100,),
                 ),
               ),
