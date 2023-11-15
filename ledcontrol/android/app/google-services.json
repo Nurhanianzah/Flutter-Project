@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "694520416782",
+    "firebase_url": "https://holysht-a1efb-default-rtdb.firebaseio.com",
+    "project_id": "holysht-a1efb",
+    "storage_bucket": "holysht-a1efb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:694520416782:android:7b03b7eac3659398950a5f",
+        "android_client_info": {
+          "package_name": "com.example.holysht"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAHi5pjHRGl9ijKvnSu9dm0f6LgsNgoUXw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:694520416782:android:d1092b4f162b532c950a5f",
+        "android_client_info": {
+          "package_name": "com.example.ledcontrol"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAHi5pjHRGl9ijKvnSu9dm0f6LgsNgoUXw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
