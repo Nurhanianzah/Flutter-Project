@@ -8,7 +8,7 @@ class home extends StatelessWidget {
         children: [
           Container(
             child: Padding(
-              padding: const EdgeInsets.only(left: 25, top: 100),
+              padding: const EdgeInsets.only(left: 25, top: 130),
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
@@ -25,7 +25,10 @@ class home extends StatelessWidget {
                     bottomRight: Radius.circular(90),
                     bottomLeft: Radius.circular(90)
                     )),
-          )
+          ),
+          Container(
+
+          ),
         ],
       ),
     );
