@@ -18,7 +18,7 @@ class home extends StatelessWidget {
               ),
             ),
             width: MediaQuery.of(context).size.width,
-            height: 400,
+            height: 450,
             decoration: BoxDecoration(
                 color: Color.fromARGB(255, 13, 198, 179),
                 borderRadius: BorderRadius.only(
