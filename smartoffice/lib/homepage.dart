@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:smartoffice/lightpage.dart';
+import 'package:smartoffice/plugpage.dart';
 
 class HomePage extends StatelessWidget {
   @override
@@ -35,6 +36,7 @@ class HomePage extends StatelessWidget {
           ),
           Row(
             children: [
+<<<<<<< HEAD
               InkWell(
                 onTap: () {
                   Navigator.push(context,
@@ -45,6 +47,61 @@ class HomePage extends StatelessWidget {
                   height: 150,
                   color: Color.fromARGB(255, 13, 198, 179),
                 child: Icon(Icons.lightbulb_rounded ,color: Colors.white, size: 100,),
+=======
+              Padding(
+                padding: const EdgeInsets.only(left: 40, top: 70),
+                child: InkWell(
+                  onTap: () {
+                    Navigator.push(context,
+                        MaterialPageRoute(builder: (context) => LightPage()));
+                  },
+                  child: Container(
+                      width: 140,
+                      height: 140,
+                      decoration: const BoxDecoration(
+                        color: Color.fromARGB(255, 13, 198, 179),
+                        borderRadius: BorderRadius.all(Radius.circular(25)),
+                      ),
+                      child: Stack(
+                        children: [
+                          Align(
+                            alignment: Alignment.center,
+                            child: Image.asset(
+                              'assets/images/light.png',
+                              width: 100,
+                              height: 100,
+                            ),
+                          ),
+                        ],
+                      )),
+                ),
+              ),
+              Padding(
+                padding: const EdgeInsets.only(left: 30, top: 70),
+                child: InkWell(
+                  onTap: () {
+                    Navigator.push(context,
+                        MaterialPageRoute(builder: (context) => PlugPage()));
+                  },
+                  child: Container(
+                    width: 140,
+                    height: 140,
+                    decoration: BoxDecoration(
+                      color: Color.fromARGB(255, 13, 198, 179),
+                      borderRadius: BorderRadius.all(Radius.circular(25)),
+                    ),
+                    child: Stack(children: [
+                      Align(
+                        alignment: Alignment.center,
+                        child: Image.asset(
+                          'assets/images/plug.png',
+                          width: 100,
+                          height: 100,
+                        ),
+                      )
+                    ]),
+                  ),
+>>>>>>> 59ed63ebe35a034312a68c2d775d0bcc40c13ace
                 ),
               ),
             ],
